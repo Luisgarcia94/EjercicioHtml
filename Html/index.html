@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Html</title>
+</head>
+
+<body>
+    <h1>Título H1</h1>
+    <h2>Título H2</h2>
+    <h3>Título H3</h3>
+    <h4>Título H4</h4>
+    <h5>Título H5</h5>
+    <h6>Título H6</h6>
+    <!--Salto de línea-->
+    <br>
+    <!--Línea Horizontal-->
+    <hr>
+    <!--Párrafos, para trabajar con mucho texto-->
+    <p>
+        <b>This</b> error is due to <i>JRE System Library.</i> <u>Maybe you didn't give appropriate</u> JRE for eclipse project to run. SO follow below steps.
+    </p>
+    <p>
+        <b><i><u>Luis García</u></i></b>
+    </p>
+
+    <!--imágenes-->
+    <img src="https://imagenes.elpais.com/resizer/h6Q3Cb9fH8uXM_Fw-r7rionLXVM=/980x980/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/ZXHWLZPS4AJUEXDFDGRTCN3RMQ.jpg" alt="gato bluetooth" width="100" height="100">
+
+    <!--Si solo indicamos width o height, la imagen crece/decrece de manera proporcional-->
+    <img src="assets/img/imgy.png" alt="imagen12" width="100">
+    <br>
+    <hr>
+    <!--link o hipervínculos-->
+    <!--url de valor absoluto, redirige a otra página web-->
+    <!--target="_blank" abre el link en una nueva pestaña en vez de recargar-->
+    <a href="https://www.generation.org" target="_blank">Visita Generation</a>
+    <a href="https://www.lun.com">Accede a lun</a>
+    <!--url de valor relativo, nos redirige a una página dentro de la misma web-->
+    <a href="pagina2.html">Ir a la página 2</a>
+    <!--url valor de anclaje, que corresponde al redireccionamiento a una parte específica 
+    dentro de una misma página-->
+    <a href="#">Ir a una sección de la misma página</a>
+    <!--Reemplazar texto por una imagen-->
+    <a href="https://www.generation.org" target="_blank">
+        <img src="https://www.generation.org/wp-content/uploads/2020/06/you-employed-home-square2-2x.png" alt="holi" width="100">
+    </a>
+
+
+    <!--Listas: Ordenadas y No Ordenadas-->
+    <ol>
+        <!--ordenada-->
+        <li>Grupo 1</li>
+        <li>Grupo 2</li>
+        <li>Grupo 3</li>
+        <li>Grupo 4</li>
+        <li>Grupo 5</li>
+        <li>Grupo 6</li>
+        <li>
+            <ol>
+                <li>Grupo 7.1</li>
+                <li>Grupo 7.2</li>
+            </ol>
+        </li>
+    </ol>
+
+    <br>
+    <hr>
+    <ul>
+        <!--No ordenada-->
+        <li>Grupo 1</li>
+        <li>Grupo 2</li>
+        <li>Grupo 3</li>
+        <li>Grupo 4</li>
+        <li>Grupo 5</li>
+        <li>Grupo 6</li>
+        <li>
+            <ul>
+                <li>Grupo 7
+                    <ul>
+                        <li>Curso A</li>
+                        <li>Curso B</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
+    <br>
+    <hr>
+    <!--
+    <ul>
+        <c:forEach items="${lista}" var="item">
+            <li>${item}</li>
+        </c:forEach>
+    </ul>-->
+
+    <!--Tablas-->
+    <table>
+        <thead>
+            <!--cabecera-->
+            <tr>
+                <th>Edad</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>28</th>
+                <th>Luis</th>
+                <th>Garcia</th>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
